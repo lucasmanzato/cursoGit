@@ -1,1 +1,62 @@
 
+
+Atividade GIT
+Lucas Manzato Gonçalves
+
+1. a- A ordem correta dos comandos seria:
+git init: Inicia um novo repositório Git local no diretório do projeto. Ele cria uma
+estrutura básica do repositório, incluindo o diretório .git, que é onde o Git armazena
+todas as informações sobre o histórico de commits e as configurações do repositório.
+git add: Adiciona arquivos ao índice do Git, preparando-os para o commit. Você pode
+especificar arquivos individuais ou usar wildcards para adicionar vários arquivos de uma
+vez.
+git commit: Registra uma nova versão (commit) do projeto. O commit captura um
+instantâneo dos arquivos que foram previamente adicionados com o comando "git add".
+Cada commit tem uma mensagem associada que descreve as alterações feitas.
+git remote add origin: Adiciona um repositório remoto chamado "origin". O "origin"é
+um nome comum usado para se referir ao repositório remoto padrão, mas poderia ser
+qualquer nome escolhido pelo usuário. Esse comando especifica a URL do repositório
+remoto para que o Git saiba para onde enviar os commits.
+git push: Envia os commits locais para o repositório remoto. O comando "git push"envia
+as alterações locais para o repositório remoto especificado com o nome "origin"(ou outro
+nome definido com o comando "git remote add").
+b- Funcionalidade dos comandos:
+git init: Inicia um novo repositório Git local. git add: Adiciona arquivos ao índice do
+Git para prepará-los para commit. git commit: Registra uma nova versão (commit) dos
+arquivos. git remote add origin: Adiciona um repositório remoto com o nome "origin".
+git push: Envia os commits locais para o repositório remoto.
+
+2. Um repositório local é um diretório em sua máquina onde você pode armazenar e
+gerenciar seus arquivos e alterações usando o Git. Já um repositório remoto é um
+servidor que armazena o repositório Git e permite que vários desenvolvedores possam
+colaborar em um mesmo projeto.
+O comando para enviar alterações do repositório local para o repositório remoto é "git
+push".
+A principal diferença entre repositório local e remoto é que o repositório local é onde
+você trabalha em seus arquivos e faz alterações, enquanto o repositório remoto é onde
+você compartilha essas alterações com outros desenvolvedores. O repositório remoto
+também permite que você trabalhe em equipe e mantenha o controle de versões cen-
+tralizado, além de servir como backup em caso de perda de dados no repositório local.
+
+3. Os branchs são utilizados em projetos para permitir que várias pessoas trabalhem em
+diferentes recursos ou funcionalidades do projeto, sem interferir diretamente no trabalho
+um do outro. Cada branch é uma cópia do código fonte principal, onde as alterações
+podem ser feitas sem afetar o código original.
+Os branchs permitem que os desenvolvedores criem novas funcionalidades, corrijam bugs
+ou melhorem o código existente sem interromper o trabalho de outros desenvolvedores
+no projeto. Quando a funcionalidade é concluída e testada, o branch pode ser mesclado
+de volta ao branch principal, incorporando as alterações feitas.
+
+4. Um merge no Git é o processo de combinar as alterações de duas ramificações diferentes
+do código em um único estado unificado. É usado para incorporar as alterações feitas
+em uma ramificação em outra. Geralmente, é utilizado quando se trabalha com ramifi-
+cações secundárias e deseja-se mesclar as alterações na ramificação principal do projeto.
+O Git analisa as diferenças entre as ramificações e combina as alterações automatica-
+mente sempre que possível. Em caso de conflitos, é necessário resolver manualmente.
+O merge facilita a colaboração entre desenvolvedores, permitindo que trabalhem em
+suas próprias ramificações e combinem suas alterações de forma organizada.
+
+5. (V) git pull é um comando válido.
+(F) git git reflog é um comando válido.
+(F) git dbsu é um comando válido.
+(F) git pre-commit é um comando válido.
